@@ -1,106 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Team Pragati Vision 2025</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Team Pragati Vision 2025</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Flashing animation */
+    @keyframes flash {
+      0%, 50%, 100% { opacity: 1; }
+      25%, 75% { opacity: 0; }
+    }
+    .flasher {
+      animation: flash 1.5s infinite;
+    }
+  </style>
 </head>
-
 <body class="bg-gray-100 text-gray-800 font-sans">
 
-    <!-- Header -->
-    <header class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-8 shadow-md">
-        <div class="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between px-6">
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-8 shadow-md">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between px-6">
 
-            <!-- Logo -->
-            <div class="mb-4 md:mb-0 md:mr-6 flex-shrink-0">
-                <img src="logo.png" alt="Team Pragati Logo"
-                    class="w-24 h-24 rounded-full border-4 border-white shadow-lg" />
-            </div>
+      <!-- Logo -->
+      <div class="mb-4 md:mb-0 md:mr-6 flex-shrink-0">
+        <img src="logo.png" alt="Team Pragati Logo" class="w-24 h-24 rounded-full border-4 border-white shadow-lg"/>
+      </div>
 
-            <!-- Title -->
-            <div class="text-center md:text-left">
-                <h1 class="text-3xl md:text-4xl font-bold">Proven Work, Trusted Leadership</h1>
-                <p class="mt-2 text-lg">Team Pragati’s Vision Document 2025</p>
-                <p class="mt-1 text-sm md:text-base font-semibold tracking-wide uppercase">GAH AOA Elections 2025</p>
-            </div>
+      <!-- Title -->
+      <div class="text-center md:text-left">
+        <h1 class="text-3xl md:text-4xl font-bold">Proven Work, Trusted Leadership</h1>
+        <p class="mt-2 text-lg">Team Pragati’s Vision Document 2025</p>
+        <p class="mt-1 text-sm md:text-base font-semibold tracking-wide uppercase">GAH AOA Elections 2025</p>
+      </div>
 
-        </div>
-    </header>
-
-    <!-- Marquee Announcement -->
-    <div class="bg-yellow-400 text-black py-2">
-        <marquee behavior="scroll" direction="left" scrollamount="6" class="font-semibold text-base">
-            28 सितंबर 2025, सुबह 10 बजे से शाम 5 बजे तक टीम प्रगति को अपना बहुमूल्य वोट देकर विजयश्री बनाएं
-        </marquee>
     </div>
+  </header>
 
-    <!-- Content Sections -->
-    <main class="container mx-auto px-4 py-12 grid gap-8 md:grid-cols-2">
+  <!-- Marquee Announcement -->
+  <div class="bg-yellow-400 text-black py-2">
+    <marquee behavior="scroll" direction="left" scrollamount="6" class="font-semibold text-base">
+      28 सितंबर 2025, सुबह 10 बजे से शाम 5 बजे तक टीम प्रगति को अपना बहुमूल्य वोट देकर विजयश्री बनाएं
+    </marquee>
+  </div>
 
-        <!-- Financial & Legal Matters -->
-        <section class="bg-white rounded-2xl shadow-md p-6">
-            <h2 class="text-xl font-semibold text-blue-600 mb-4">Financial & Legal Matters</h2>
-            <ul class="list-disc list-inside space-y-2 text-gray-700">
-                <li>Approx. 6.25 crore IFMS recovery from promoter/lotus (Already 5 unsold flats identified in Phase 1 &
-                    2).</li>
-                <li>Registry for Phase 1 and Phase 2 flats (Writ filed in Allahabad High Court – ongoing).</li>
-                <li>Refund of security amount from UPPVNL post MPC conversion.</li>
-            </ul>
-        </section>
+  <!-- Flasher -->
+  <div class="bg-red-600 text-white text-center py-3">
+    <p class="text-lg md:text-xl font-bold flasher">🚩 Vote for Development, Vote for Team Pragati 🚩</p>
+  </div>
 
-        <!-- Compliance & Certifications -->
-        <section class="bg-white rounded-2xl shadow-md p-6">
-            <h2 class="text-xl font-semibold text-green-600 mb-4">Compliance & Certifications</h2>
-            <ul class="list-disc list-inside space-y-2 text-gray-700">
-                <li>Obtaining Fire NOC for entire society and completion of pending smoke extractor system.</li>
-                <li>Applying for Occupancy Certificate (OC) for K Tower.</li>
-                <li>Structural Audit as per Noida Authority policy with corrective actions.</li>
-                <li>DG/Generators conversion to dual fuel/RECD.</li>
-            </ul>
-        </section>
+  <!-- Content Sections -->
+  <main class="container mx-auto px-4 py-12 grid gap-8 md:grid-cols-2">
 
-        <!-- Infrastructure Repair & Safety -->
-        <section class="bg-white rounded-2xl shadow-md p-6">
-            <h2 class="text-xl font-semibold text-purple-600 mb-4">Infrastructure Repair & Safety</h2>
-            <ul class="list-disc list-inside space-y-2 text-gray-700">
-                <li>Basement/pillars repair, paint, and expansion joint repair with experts.</li>
-                <li>Installation of power backup for lifts and emergency lights in basements.</li>
-                <li>Swimming pool renovation.</li>
-                <li>External paint (after façade work).</li>
-                <li>Improvement in main to DG switch timing.</li>
-            </ul>
-        </section>
+    <!-- Financial & Legal Matters -->
+    <section class="bg-white rounded-2xl shadow-md p-6">
+      <h2 class="text-xl font-semibold text-blue-600 mb-4">Financial & Legal Matters</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li>Approx. 6.25 crore IFMS recovery from promoter/lotus (Already 5 unsold flats identified in Phase 1 & 2).</li>
+        <li>Registry for Phase 1 and Phase 2 flats (Writ filed in Allahabad High Court – ongoing).</li>
+        <li>Refund of security amount from UPPVNL post MPC conversion.</li>
+      </ul>
+    </section>
 
-        <!-- Sustainable Living -->
-        <section class="bg-white rounded-2xl shadow-md p-6">
-            <h2 class="text-xl font-semibold text-yellow-600 mb-4">Sustainable Living</h2>
-            <ul class="list-disc list-inside space-y-2 text-gray-700">
-                <li>Improvement in waste management practices.</li>
-                <li>Exploring solar energy usage for common areas.</li>
-                <li>Improvement in rainwater harvesting.</li>
-            </ul>
-        </section>
+    <!-- Compliance & Certifications -->
+    <section class="bg-white rounded-2xl shadow-md p-6">
+      <h2 class="text-xl font-semibold text-green-600 mb-4">Compliance & Certifications</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li>Obtaining Fire NOC for entire society and completion of pending smoke extractor system.</li>
+        <li>Applying for Occupancy Certificate (OC) for K Tower.</li>
+        <li>Structural Audit as per Noida Authority policy with corrective actions.</li>
+        <li>DG/Generators conversion to dual fuel/RECD.</li>
+      </ul>
+    </section>
 
-        <!-- Amenities & Resident Services -->
-        <section class="bg-white rounded-2xl shadow-md p-6 md:col-span-2">
-            <h2 class="text-xl font-semibold text-pink-600 mb-4">Amenities & Resident Services</h2>
-            <ul class="list-disc list-inside space-y-2 text-gray-700">
-                <li>Automation of visitor parking and bookings.</li>
-                <li>K Tower club first floor to be made operational for residents’ usage.</li>
-                <li>K26 permanent parking allocation.</li>
-            </ul>
-        </section>
+    <!-- Infrastructure Repair & Safety -->
+    <section class="bg-white rounded-2xl shadow-md p-6">
+      <h2 class="text-xl font-semibold text-purple-600 mb-4">Infrastructure Repair & Safety</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li>Basement/pillars repair, paint, and expansion joint repair with experts.</li>
+        <li>Installation of power backup for lifts and emergency lights in basements.</li>
+        <li>Swimming pool renovation.</li>
+        <li>External paint (after façade work).</li>
+        <li>Improvement in main to DG switch timing.</li>
+      </ul>
+    </section>
 
-    </main>
+    <!-- Sustainable Living -->
+    <section class="bg-white rounded-2xl shadow-md p-6">
+      <h2 class="text-xl font-semibold text-yellow-600 mb-4">Sustainable Living</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li>Improvement in waste management practices.</li>
+        <li>Exploring solar energy usage for common areas.</li>
+        <li>Improvement in rainwater harvesting.</li>
+      </ul>
+    </section>
 
-    <!-- Footer -->
-    <footer class="bg-blue-600 text-white text-center py-4">
-        <p class="text-sm">© 2025 Team Pragati. All Rights Reserved.</p>
-    </footer>
+    <!-- Amenities & Resident Services -->
+    <section class="bg-white rounded-2xl shadow-md p-6 md:col-span-2">
+      <h2 class="text-xl font-semibold text-pink-600 mb-4">Amenities & Resident Services</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li>Automation of visitor parking and bookings.</li>
+        <li>K Tower club first floor to be made operational for residents’ usage.</li>
+        <li>K26 permanent parking allocation.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center py-4">
+    <p class="text-sm">© 2025 Team Pragati. All Rights Reserved.</p>
+  </footer>
 
 </body>
-
 </html>
